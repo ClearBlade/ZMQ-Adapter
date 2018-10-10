@@ -4,9 +4,29 @@ This is an example ZMQ adapter.
 It simply forwards all messages between the ClearBlade platform and a few ZMQ speaking nodes. 
 
 ## Prereqs
-- [ClearBlade Python SDK](https://pypi.org/project/clearblade/)
-- [ZMQ](http://zeromq.org/intro:get-the-software)
-- [PyZMQ](http://zeromq.org/bindings:python)
+
+### Install
+
+
+1. Install PyZMQ
+```
+# Windows / OS X
+pip install --wheel pyzmq
+
+# Linux
+pip install pyzmq
+```
+
+2. Install clearblade
+http://zeromq.org/intro:get-the-software
+```
+pip install clearblade
+```
+
+3. Install zmq
+
+Install for your OS:
+http://zeromq.org/intro:get-the-software
 
 ## Running the example
 
