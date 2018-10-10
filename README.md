@@ -18,7 +18,6 @@ pip install pyzmq
 ```
 
 2. Install clearblade
-http://zeromq.org/intro:get-the-software
 ```
 pip install clearblade
 ```
